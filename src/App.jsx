@@ -4,6 +4,7 @@ import EducationSection from './components/EducationSection';
 import SkillsSection from './components/SkillsSection';
 import ExperienceSection from './components/ExperienceSection';
 import ProjectsSection from './components/ProjectsSection';
+import BorderLine from './components/BorderLine';
 
 function App() {
   return (
@@ -12,17 +13,17 @@ function App() {
         <div id='header-section'>
           <HeaderSection />
         </div>
-        <main className='flex flex-col items-center w-full'>
+        <main className='flex flex-col'>
           <div id='education-section' className='w-full flex'>
             <EducationSection />
           </div>
-          <div id='skills-section' className='w-full flex justify-center'>
+          <div id='skills-section' className='w-full'>
             <SkillsSection />
           </div>
-          <div id='experience-section' className='w-full flex justify-center'>
+          <div id='experience-section' className='w-full'>
             <ExperienceSection />
           </div>
-          <div id='projects-section' className='w-full flex justify-center'>
+          <div id='projects-section' className='w-full'>
             <ProjectsSection />
           </div>
         </main>
