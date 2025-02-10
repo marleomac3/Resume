@@ -9,21 +9,25 @@ import BorderLine from './components/BorderLine';
 function App() {
   return (
     <>
-      <div id='content-div' className='flex flex-col items-center w-[51rem] h-[66rem] bg-gray-300 shadow-[0px_0px_16px_-2px_rgba(0,_0,_0,_0.7)]'>
-        <div id='header-section'>
+      <div id='content-div' className='flex flex-col mx-auto w-[51rem] h-[66rem] bg-white shadow-[0px_0px_16px_-2px_rgba(0,_0,_0,_0.7)]'>
+        <div id='header-section' className='ml-4 w-full'>
           <HeaderSection />
+          <BorderLine />
         </div>
         <main className='flex flex-col'>
-          <div id='education-section' className='w-full flex'>
+          <div id='education-section' className='ml-4 w-full'>
             <EducationSection />
+            <BorderLine />
           </div>
-          <div id='skills-section' className='w-full'>
+          <div id='skills-section' className='ml-4 w-full'>
             <SkillsSection />
+            <BorderLine />
           </div>
-          <div id='experience-section' className='w-full'>
+          <div id='experience-section' className='ml-4 w-full'>
             <ExperienceSection />
+            <BorderLine />
           </div>
-          <div id='projects-section' className='w-full'>
+          <div id='projects-section' className='ml-4 w-full'>
             <ProjectsSection />
           </div>
         </main>
