@@ -9,7 +9,7 @@ import BorderLine from './components/BorderLine';
 function App() {
   return (
     <>
-      <div id='content-div' className='flex flex-col mx-auto w-[51rem] h-[66rem] bg-white shadow-[0px_0px_16px_-2px_rgba(0,_0,_0,_0.7)]'>
+      <div id='content-div' className='flex flex-col mx-auto w-[51rem] h-[66rem] bg-white '>
         <div id='header-section' className='ml-4 w-full'>
           <HeaderSection />
           <BorderLine />
