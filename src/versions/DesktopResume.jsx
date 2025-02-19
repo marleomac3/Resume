@@ -1,10 +1,10 @@
 import React from "react";
-import HeaderSection from "../components/HeaderSection";
-import EducationSection from "../components/EducationSection";
-import SkillsSection from "../components/SkillsSection";
-import ExperienceSection from "../components/ExperienceSection";
-import ProjectsSection from "../components/ProjectsSection";
-import BorderLine from "../components/BorderLine";
+import HeaderSection from "../components/desktop/HeaderSection";
+import EducationSection from "../components/desktop/EducationSection";
+import SkillsSection from "../components/desktop/SkillsSection";
+import ExperienceSection from "../components/desktop/ExperienceSection";
+import ProjectsSection from "../components/desktop/ProjectsSection";
+import BorderLine from "../components/desktop/BorderLine";
 
 export default function DesktopResume() {
   return (

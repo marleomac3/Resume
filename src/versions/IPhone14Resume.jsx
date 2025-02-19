@@ -1,17 +1,17 @@
 import React from "react";
-import HeaderSection from "../components/HeaderSection";
-import EducationSection from "../components/EducationSection";
-import SkillsSection from "../components/SkillsSection";
-import ExperienceSection from "../components/ExperienceSection";
-import ProjectsSection from "../components/ProjectsSection";
-import BorderLine from "../components/BorderLine";
+import HeaderSection from "../components/iphone14/HeaderSection";
+import EducationSection from "../components/iphone14/EducationSection";
+import SkillsSection from "../components/iphone14/SkillsSection";
+import ExperienceSection from "../components/iphone14/ExperienceSection";
+import ProjectsSection from "../components/iphone14/ProjectsSection";
+import BorderLine from "../components/iphone14/BorderLine";
 
 export default function IPhone14Resume() {
   return (
     <>
       <div
         id="content-div"
-        className="hidden flex-col mx-auto w-full h-[66rem] bg-green-400 iphone14:flex">
+        className="hidden flex-col mx-auto w-full h-[66rem] bg-white iphone14:flex">
         <div id="header-section" className="ml-4 w-full">
           <HeaderSection />
           <BorderLine />
