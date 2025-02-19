@@ -7,7 +7,7 @@ const CallButton = ({phoneNumber}) => {
 
     return (
         <a href={`tel:${phoneNumber}`} onClick={handleCall}>
-            <button className='bg-slate-400 text-black font-bold py-2 px-4 rounded cursor-pointer w-full'>CALL</button>
+            <button className='bg-white shadow-sm text-black font-bold py-2 px-4 rounded cursor-pointer w-full'>CALL</button>
         </a>
     );
 };

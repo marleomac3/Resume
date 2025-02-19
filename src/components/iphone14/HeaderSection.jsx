@@ -6,9 +6,9 @@ export default function HeaderSection() {
     return (
         <div className="w-full">
             <h1 className="text-2xl font-bold text-center text-black">
-                Marion L. McWilliams III Test
+                Marion L. McWilliams III
             </h1>
-            <div className="flex justify-around w-full gap-1">
+            <div className="flex justify-around w-full gap-3 mb-3">
                 <div className="w-1/2">
                     <CallButton phoneNumber="3025630316" />
                 </div>
