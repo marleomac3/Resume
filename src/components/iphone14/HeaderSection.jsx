@@ -1,6 +1,6 @@
 import React from "react";
-import CallButton from "./CallButton";
-import EmailButton from "./EmailButton";
+import CallButton from "./buttons/CallButton";
+import EmailButton from "./buttons/EmailButton";
 
 export default function HeaderSection() {
     return (

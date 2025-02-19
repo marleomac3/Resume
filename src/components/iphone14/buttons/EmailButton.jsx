@@ -9,7 +9,7 @@ const EmailButton = ({email, subject, message}) => {
 
     return (
         <a href={`mailto:${email}?subject=${encodedSubject}&body=${encodedMessage}`} onClick={handleEmail}>
-            <button className='bg-white shadow-sm text-black font-bold py-2 px-4 rounded cursor-pointer w-full'>EMAIL</button>
+            <button className='bg-dodger-blue shadow-sm text-white font-bold py-2 px-4 rounded cursor-pointer w-full'>EMAIL</button>
         </a>
     );
 };
