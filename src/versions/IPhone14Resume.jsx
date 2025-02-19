@@ -11,25 +11,25 @@ export default function IPhone14Resume() {
     <>
       <div
         id="content-div"
-        className="hidden flex-col mx-auto w-full h-[66rem] bg-white iphone14:flex">
-        <div id="header-section" className="ml-4 w-full">
+        className="hidden flex-col items-center mx-auto w-full h-[66rem] bg-[#eceff6] iphone14:flex">
+        <div id="header-section" className="w-[90%]">
           <HeaderSection />
           <BorderLine />
         </div>
-        <main className="flex flex-col">
-          <div id="education-section" className="ml-4 w-full">
+        <main className="flex flex-col items-center w-[95%]">
+          <div id="education-section" className="">
             <EducationSection />
             <BorderLine />
           </div>
-          <div id="skills-section" className="ml-4 w-full">
+          <div id="skills-section">
             <SkillsSection />
             <BorderLine />
           </div>
-          <div id="experience-section" className="ml-4 w-full">
+          <div id="experience-section">
             <ExperienceSection />
             <BorderLine />
           </div>
-          <div id="projects-section" className="ml-4 w-full">
+          <div id="projects-section">
             <ProjectsSection />
           </div>
         </main>
