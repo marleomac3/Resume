@@ -1,10 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
+import SkillsButton from './buttons/SkillsButton';
 
 export default function SkillsSection() {
+    const [isExpanded, setIsExpanded] = useState(false);
+
+    const toggleExpand = () => {
+        setIsExpanded(!isExpanded);
+    }
+
     return (
-        <div className="w-[96%]">
-            <h1 id='section-header'>Skills</h1>
-            <ul>
+        <div className="w-full">
+            <div className="w-full">
+                <SkillsButton onClick={toggleExpand} />
+            </div>
+            {isExpanded && (
+                <div id='content-div' className='shadow-inner-xl'>
+                    <ul className='p-2'>
                 <li>
                     <h2 id='list-header'>Technical:</h2>
                     <p id='list-content'>
@@ -23,6 +34,8 @@ export default function SkillsSection() {
                     </p>
                 </li>
             </ul>
+                </div>
+            )}
         </div>
     );
 }

@@ -1,10 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
+import ExperienceButton from './buttons/ExperienceButton';
 
 export default function ExperienceSection() {
+    const [isExpanded, setIsExpanded] = useState(false);
+
+    const toggleExpand = () => {
+        setIsExpanded(!isExpanded);
+    }
+
     return (
-        <div className="w-[96%]">
-            <h1 id="section-header">Experience</h1>
-            <ul>
+        <div className="w-full">
+            <div className="w-full">
+                <ExperienceButton onClick={toggleExpand} />
+            </div>
+            {isExpanded && (
+                <div id='content-div' className='shadow-inner-xl'>
+                    <ul className='p-2'>
                 <li>
                     <div id='job-headers'>
                         <h2 id='list-header'>Full Stack Developer (Intern)</h2>
@@ -45,6 +56,8 @@ export default function ExperienceSection() {
                     <li id='list-content'>Worked diligently with fellow associates to maintain store order</li>
                 </li>
             </ul>
+                </div>
+            )}
         </div>
     );
 }

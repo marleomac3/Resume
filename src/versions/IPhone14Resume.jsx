@@ -4,7 +4,6 @@ import EducationSection from "../components/iphone14/EducationSection";
 import SkillsSection from "../components/iphone14/SkillsSection";
 import ExperienceSection from "../components/iphone14/ExperienceSection";
 import ProjectsSection from "../components/iphone14/ProjectsSection";
-import BorderLine from "../components/iphone14/BorderLine";
 
 export default function IPhone14Resume() {
   return (
@@ -19,13 +18,13 @@ export default function IPhone14Resume() {
           <div id="education-section" className="w-full min-w-full">
             <EducationSection />
           </div>
-          <div id="skills-section">
+          <div id="skills-section" className="w-full min-w-full">
             <SkillsSection />
           </div>
-          <div id="experience-section">
+          <div id="experience-section" className="w-full min-w-full">
             <ExperienceSection />
           </div>
-          <div id="projects-section">
+          <div id="projects-section" className="w-full min-w-full">
             <ProjectsSection />
           </div>
         </main>
