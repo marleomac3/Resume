@@ -1,4 +1,5 @@
 import React from 'react';
+import EmailIcon from '../../../assets/envelope-solid.svg';
 
 const EmailButton = ({email, subject, message}) => {
     const handleEmail = () => {
@@ -9,7 +10,9 @@ const EmailButton = ({email, subject, message}) => {
 
     return (
         <a href={`mailto:${email}?subject=${encodedSubject}&body=${encodedMessage}`} onClick={handleEmail}>
-            <button className='bg-dodger-blue shadow-sm text-white font-bold py-2 px-4 rounded cursor-pointer w-full'>EMAIL</button>
+            <div className="w-8 h-8 bg-[#eceff6] rounded-full flex items-center justify-center">
+                    <img src={EmailIcon} alt="Callender" className="w-4" />
+                </div>
         </a>
     );
 };

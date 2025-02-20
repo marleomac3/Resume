@@ -1,4 +1,5 @@
 import React from 'react';
+import PhoneIcon from "../../../assets/phone-solid.svg";
 
 const CallButton = ({phoneNumber}) => {
     const handleCall = () => {
@@ -7,7 +8,9 @@ const CallButton = ({phoneNumber}) => {
 
     return (
         <a href={`tel:${phoneNumber}`} onClick={handleCall}>
-            <button className='bg-dodger-blue shadow-sm text-white font-bold py-2 px-4 rounded cursor-pointer w-full'>CALL</button>
+            <div className="w-8 h-8 bg-[#eceff6] rounded-full flex items-center justify-center">
+                    <img src={PhoneIcon} alt="Phone" className="w-4" />
+                </div>
         </a>
     );
 };
