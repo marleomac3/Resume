@@ -4,7 +4,7 @@ import EmailButton from "./buttons/EmailButton";
 
 export default function HeaderSection() {
     return (
-        <div className="w-full">
+        <div className="w-full pt-2">
             <h1 className="text-2xl font-bold text-center text-black">
                 Marion L. McWilliams III
             </h1>
@@ -15,7 +15,7 @@ export default function HeaderSection() {
                 </div>
                 <div className="w-1/2">
                     <EmailButton
-                        email="marionlmcwilliams@gmail"
+                        email="marionlmcwilliams@gmail.com"
                         subject="Resume Inquiry"
                         message="Hello Marion, I have a question about your resume."
                     />

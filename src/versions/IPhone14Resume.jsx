@@ -10,7 +10,7 @@ export default function IPhone14Resume() {
     <>
       <div
         id="content-div"
-        className="hidden flex-col items-center mx-auto w-full h-[66rem] bg-[#eceff6] iphone14:flex">
+        className="hidden flex-col items-center mx-auto w-full min-h-screen overflow-y-auto bg-[#eceff6] iphone14:flex">
         <div id="header-section" className="w-[95%]">
           <HeaderSection />
         </div>

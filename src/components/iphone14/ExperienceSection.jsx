@@ -14,7 +14,7 @@ export default function ExperienceSection() {
                 <ExperienceButton onClick={toggleExpand} />
             </div>
             {isExpanded && (
-                <div id='content-div' className='shadow-inner-xl'>
+                <div id='content-div' className='shadow-inner-xl mb-2'>
                     <ul className='p-2'>
                 <li>
                     <div id='job-headers'>
