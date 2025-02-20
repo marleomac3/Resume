@@ -14,7 +14,7 @@ export default function SkillsSection() {
                 <SkillsButton onClick={toggleExpand} />
             </div>
             {isExpanded && (
-                <div id='content-div' className='shadow-inner-xl'>
+                <div id='content-div' className='shadow-inner-xl mb-2'>
                     <ul className='p-2'>
                 <li>
                     <h2 id='list-header'>Technical:</h2>
