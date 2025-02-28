@@ -32,7 +32,7 @@ export default function ExperienceSection() {
                         <h2 id='list-header'>June 2020 - Aug 2021</h2>
                     </div>
                     <li id='list-content'>
-                        <span className='font-medium'>Fulfilled 100-300 customer orders</span> 
+                        <span className='font-medium'>Fulfilled 100-300 customer orders </span> 
                         daily while ensuring an inclusive and safe work environment
                     </li>
                 </li>
